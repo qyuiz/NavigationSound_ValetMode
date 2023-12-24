@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Start Service"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:backgroundTint="#00E676"/>
+
+    <Button
+        android:id="@+id/stopServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Stop Service"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        app:backgroundTint="#E53935"/>
+
+    <TextView
+        android:id="@+id/serviceStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service Status: Stopped"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FF29B6FC"/>
+
+    <Button
+        android:id="@+id/valetModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALET MODE ON"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="#01579B"/>
+
+</LinearLayout>
